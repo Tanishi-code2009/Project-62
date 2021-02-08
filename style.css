@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    
+}
+li{
+    display: inline;
+}
+
+#slidephotos{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+#gridphotos {
+    font-size: 50px ;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+img{
+    transition: transform .2s; 
+}
+img:hover{
+    transform: scale(0.9);
+}
+
+.container{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+  
+}
+
+
+#MyCarousel{
+    background-color: aqua;
+}
+
+
+#MyCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+   margin-bottom: 15px;
+    margin-top: 15px;
+    color: crimson;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+
+
+
